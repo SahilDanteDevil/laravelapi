@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
             ProductSeeder::class,
             OrderSeeder::class,
             OrderItemSeeder::class,
+            PermissionSeeder::class,
+            RolePermissionSeeder::class,
          ]);
          \App\Models\User::factory(20)->create();
          
